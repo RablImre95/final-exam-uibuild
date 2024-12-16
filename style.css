@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    color: inherit;
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header {
+    width: 100%;
+    height: 40px;
+    background-color: #1a24fb;
+    color: #f8f7f3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 20px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 100px 20px;
+    max-width: 1280px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #f8f7f3;
+  }
+  
+  .card {
+    position: relative;
+    background-color: #f8f7f3;
+    border: 1px solid #1a24fb;
+    padding: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .number {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    color: #1a24fb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .card h2 {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:#1a24fb;
+    margin: 0 0 20px;
+    align-self: flex-start; 
+  }
+  
+  .card h3 {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #1a24fb;
+    margin: 0 0 10px; 
+    align-self: flex-start;
+  }
+  
+  .card p {
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0 0 20px;
+    color: #1a24fb;
+    align-self: flex-start; 
+  }
+  
+  .buttontext {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: #1a24fb;
+    background: none;
+    border: none;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    height: 18px;
+  }
+
+  .buttontext:hover {
+    cursor: pointer;
+    background-color: #1a24fb;
+    color: #f8f7f3;
+  }
